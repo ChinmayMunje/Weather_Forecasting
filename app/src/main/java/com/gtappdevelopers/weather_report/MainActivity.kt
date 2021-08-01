@@ -16,10 +16,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    val CITYNAME: String = "dhaka,bd"
+    val API: String = "Enter Your API Key"
 
-    //    val API: String ="06c921750b9a82d8f5d1294e1586276f"
-    val API: String = "dca892fc2d534382a1461857211207"
     lateinit var editText: EditText
     lateinit var string: String
     lateinit var cityNameTV: TextView
