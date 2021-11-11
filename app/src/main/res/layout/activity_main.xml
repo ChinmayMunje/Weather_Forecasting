@@ -26,7 +26,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#3CF1EBF1"
+                android:background="@color/search_back"
                 android:orientation="horizontal"
                 android:weightSum="5">
 
@@ -51,13 +51,11 @@
 
             </LinearLayout>
 
-            <Space
-                android:layout_width="10dp"
-                android:layout_height="20dp" />
 
             <TextView
                 android:id="@+id/cityName"
                 android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
                 android:text="Location"
                 android:textColor="@color/white"
@@ -200,10 +198,6 @@
                             android:layout_height="30dp"
                             android:src="@drawable/sun" />
 
-                        <Space
-                            android:layout_width="5dp"
-                            android:layout_height="wrap_content" />
-
                         <TextView
                             android:id="@+id/sunrise"
                             android:layout_width="wrap_content"
@@ -246,10 +240,6 @@
                             android:layout_height="30dp"
                             android:src="@drawable/rise" />
 
-                        <Space
-                            android:layout_width="5dp"
-                            android:layout_height="wrap_content" />
-
                         <TextView
                             android:id="@+id/sunset"
                             android:layout_width="wrap_content"
@@ -289,10 +279,6 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:src="@drawable/wind" />
-
-                        <Space
-                            android:layout_width="5dp"
-                            android:layout_height="wrap_content" />
 
                         <TextView
                             android:id="@+id/windSpeed"
@@ -361,8 +347,6 @@
                             android:textColor="@color/white"
                             android:textSize="13sp" />
                     </LinearLayout>
-
-
                 </androidx.cardview.widget.CardView>
 
 
@@ -386,10 +370,6 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:src="@drawable/meter" />
-
-                        <Space
-                            android:layout_width="5dp"
-                            android:layout_height="wrap_content" />
 
                         <TextView
                             android:id="@+id/pressure"
@@ -430,10 +410,6 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:src="@drawable/storm" />
-
-                        <Space
-                            android:layout_width="5dp"
-                            android:layout_height="wrap_content" />
 
                         <TextView
                             android:id="@+id/storm"
